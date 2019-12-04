@@ -1,0 +1,93 @@
+.record{
+    height: 636px;
+}
+
+.record .container{
+    width: 1000px;
+    height: 636px;
+    border: 1px solid purple;
+}
+
+.record-top{
+    float: left;
+    height: 70px;
+    width: 1000px;
+    border: 1px solid purple;
+}
+
+.record-top span{
+    display: inline-block;
+    position: relative;
+    top: -28px;
+    font-size: 20px;
+}
+
+.record-center{
+    float: left;
+    height: 450px;
+    width: 1000px;
+    border: 1px solid purple;
+}
+
+.record-center-left{
+    float: left;
+    width: 520px;
+    height: 340px;
+    border: 1px solid purple;
+    margin-top: 53px;
+}
+
+.record-center-right{
+    float: right;
+    width: 476px;
+    height: 382px;
+    border: 1px solid purple;
+    margin-top: 12px;
+}
+
+.record-center-right li{
+    list-style-type: none;
+}
+
+.record-center-right-top{
+    float: left;
+    width: 476px;
+    height: 38px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    padding-top: 7px;
+}
+
+.record-center-right ul{
+    float: left;
+    width: 434px;
+    height: 327px;
+    border: 1px solid blue;
+}
+
+.record-center-right-top span{
+    display: inline-block;
+    font-size: 25px;
+    width: 60px;
+    height: 27px;
+    /* border: 1px solid red; */
+    /* background-color: yellow; */
+    margin-right: 318px;
+}
+
+
+
+.record-center-right li:nth-child(1){
+    width: 432px;
+    height: 27px;
+    border: 1px solid gold;
+    line-height: 27px;
+    font-size: 13px;
+}
+
+.record-bottom{
+    float: left;
+    height: 110px;
+    width: 1000px;
+    border: 1px solid purple;
+}

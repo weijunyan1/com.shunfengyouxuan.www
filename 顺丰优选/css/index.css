@@ -238,7 +238,7 @@
 
 .list-box-left{
     float: left;
-    width: 200px;
+    width: 198px;
     height: 32px;
     /* border: 1px solid red; */
     background-color: #669900;
@@ -274,16 +274,62 @@
 /* 补 */
 .all{
     height: 480px;
-    border:  1px solid gold;
+    /* border:  1px solid gold; */
 }
 
 .all .container{
     width: 1200px;
     height: 480px;
-    border:  1px solid gold;
+    /* border:  1px solid gold; */
 }
 
+.all-left{
+    width: 198px;
+    height: 480px;
+    float: left;
+    /* border:  1px solid gold; */
+    background-color: #76ac25;
+}
 
+.all-left-left{
+    float: left;
+}
+
+.all-left-right{
+    float: left;
+  
+}
+
+.all-left-right div{
+    /* float: left; */
+    width: 167px;
+    height: 50px;
+    /* border:  1px solid gold; */
+  box-sizing: border-box;
+  padding-left: 5px;
+   
+    margin-bottom: 10px;
+    
+}
+
+.all-left-right li{
+    display: inline-block;
+}
+
+.all-left-right span{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.all-left-right a{
+    color: #fff;
+}
+
+.all-left-right ul{
+    margin-top: 5px;
+   
+}
 /* 四优选必买 */
 .buy{
     height: 545px;
@@ -305,9 +351,6 @@
     font-weight: 400px;
     margin-right: 6px;
 }
-
-
-
 
 
 
@@ -517,7 +560,7 @@
     float: left;
     width: 169px;
     height: 226px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin-left: 11px;
     /* background-color:blueviolet; */
 }
@@ -525,16 +568,26 @@
 .fruit-center-picture{
     text-align: center;
     width: 171px;
-    height: 190px;
-    border: 1px solid blue;
+    height: 184px;
+    /* border: 1px solid blue; */
+    position: relative;
+    overflow: hidden;
 }
 
 .fruit-center-picture div{
     width: 160px;
     height: 25px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     line-height: 25px;
     margin-left: 3px;
+    position: absolute;
+    top: 193px;
+    background-color: #76ac25;
+    color: #fff;
+}
+
+.fruit-center-picture:hover div{
+    top: 157px;
 }
 
 .fruit-center-word{
@@ -567,6 +620,10 @@
     background-color: #f4f4f4;
 }
 
+.fruit-right-up li:hover{
+    background-color: #76ac25;
+}
+
 .fruit-right-up li{
     float: left;
     width: 55px;
@@ -581,12 +638,22 @@
 }
 
 .fruit-right-down-littlebox img{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border-radius: 10px;
     position: relative;
     top: -168px;
     left: 19px;
+}
+
+.fruit-right-down-littlebox:hover{
+    background-image: url(../img/green-point.png);
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    position: relative;
+    top: -168px;
+    left: 24px;
 }
 
 /* 肉类海鲜 */
@@ -658,7 +725,7 @@
     float: left;
     width: 730px;
     height: 470px;
-    border-top: 1px solid #76ac25;
+    border-top: 1px solid #fa648c;
 }
 
 .meat-center li{
@@ -672,10 +739,31 @@
 
 .meat-center-picture{
     text-align: center;
+    width: 171px;
+    height: 184px;
+    /* border: 1px solid blue; */
+    position: relative;
+    overflow: hidden;
+}
+
+.meat-center-picture div{
+    width: 160px;
+    height: 25px;
+    /* border: 1px solid red; */
+    line-height: 25px;
+    margin-left: 3px;
+    position: absolute;
+    top: 193px;
+    background-color: #fa648c;
+    color: #fff;
+}
+
+.meat-center-picture:hover div{
+    top: 157px;
 }
 
 .meat-center-word{
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .meat-center-price{
@@ -700,7 +788,7 @@
     float: left;
     width: 220px;
     height: 235px;
-    border-top: 1px solid #76ac25;
+    border-top: 1px solid #fa648c;
     background-color: #f4f4f4;
 }
 
@@ -717,13 +805,27 @@
     background-color: #fff;
 }
 
+.meat-right-up li:hover{
+    background-color: #fa648c;
+}
+
 .meat-right-down-littlebox img{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border-radius: 10px;
     position: relative;
     top: -168px;
     left: 19px;
+}
+
+.meat-right-down-littlebox:hover{
+    background-image: url(../img/pink-point.png);
+    width: 30px;
+    height: 30px;
+    border-radius: 22px;
+    position: relative;
+    top: -168px;
+    left: 24px;
 }
 
 /* 八广告 */
@@ -810,7 +912,7 @@
     float: left;
     width: 730px;
     height: 470px;
-    border-top: 1px solid #76ac25;
+    border-top: 1px solid #ff6c00;
 }
 
 .rice-center li{
@@ -824,10 +926,15 @@
 
 .rice-center-picture{
     text-align: center;
+    width: 171px;
+    height: 184px;
+    /* border: 1px solid blue; */
+    position: relative;
+    overflow: hidden;
 }
 
 .rice-center-word{
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .rice-center-price{
@@ -841,6 +948,24 @@
     margin-bottom: 10px;
 }
 
+
+
+.rice-center-picture div{
+    width: 160px;
+    height: 25px;
+    /* border: 1px solid red; */
+    line-height: 25px;
+    margin-left: 3px;
+    position: absolute;
+    top: 193px;
+    background-color: #ff6c00;
+    color: #fff;
+}
+
+.rice-center-picture:hover div{
+    top: 157px;
+}
+
 .rice-right{
     float: left;
     width: 220px;
@@ -852,7 +977,7 @@
     float: left;
     width: 220px;
     height: 235px;
-    border-top: 1px solid #76ac25;
+    border-top: 1px solid #ff6c00;
     background-color: #f4f4f4;
 }
 
@@ -869,15 +994,28 @@
     background-color: #fff;
 }
 
+.rice-right-up li:hover{
+    background-color: #ff6c00;
+}
+
 .rice-right-down-littlebox img{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border-radius: 10px;
     position: relative;
     top: -168px;
     left: 19px;
 }
 
+.rice-right-down-littlebox:hover{
+    background-image: url(../img/orange-point.png);
+    width: 31px;
+    height: 30px;
+    border-radius: 22px;
+    position: relative;
+    top: -168px;
+    left: 21px;
+}
 
 /* 十广告 */
 .ad3{
@@ -959,7 +1097,7 @@
     float: left;
     width: 730px;
     height: 470px;
-    border-top: 1px solid #76ac25;
+    border-top: 1px solid #fa648c;
 }
 
 .sugar-center li{
@@ -973,10 +1111,15 @@
 
 .sugar-center-picture{
     text-align: center;
+    width: 171px;
+    height: 184px;
+    /* border: 1px solid blue; */
+    position: relative;
+    overflow: hidden;
 }
 
 .sugar-center-word{
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .sugar-center-price{
@@ -985,6 +1128,21 @@
     color: red;
 }
 
+.sugar-center-picture div{
+    width: 160px;
+    height: 25px;
+    /* border: 1px solid red; */
+    line-height: 25px;
+    margin-left: 3px;
+    position: absolute;
+    top: 193px;
+    background-color: #fa648c;
+    color: #fff;
+}
+
+.sugar-center-picture:hover div{
+    top: 157px;
+}
 
 .sugar-center li:nth-child(4){
     margin-bottom: 10px;
@@ -1001,7 +1159,7 @@
     float: left;
     width: 220px;
     height: 235px;
-    border-top: 1px solid #76ac25;
+    border-top: 1px solid #fa648c;
     background-color: #f4f4f4;
 }
 
@@ -1018,16 +1176,28 @@
     background-color: #fff;
 }
 
+.sugar-right-up li:hover{
+    background-color: #fa648c;
+}
+
 .sugar-right-down-littlebox img{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border-radius: 10px;
     position: relative;
     top: -168px;
     left: 19px;
 }
 
-
+.sugar-right-down-littlebox{
+    background-image: url(../img/pink-point.png);
+    width: 31px;
+    height: 30px;
+    border-radius: 17px;
+    position: relative;
+    top: -168px;
+    left: 21px
+}
 
 
 
@@ -1078,10 +1248,10 @@
 
 .for-center-picture .car{
     position: absolute;
-    top:212px;
+    top:222px;
     width: 100%;
     height: 30px;
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     /* left: 12px; */
     box-sizing: border-box;
     padding-top: 10px;
@@ -1221,6 +1391,10 @@
     display: inline-block;
 }
 
+.sell-left-down-right span:hover{
+    color: #96ac25;
+}
+
 .sell-left-down-right .bit{
     display: inline-block;
 }
@@ -1277,12 +1451,34 @@
     float: left;
     width: 50px;
     height: 50px;
+    
 }
 
-.sell-center-down h4 h5{
+.sell-center-down h4 {
     float: left;
-    width: 370px;
-    height: 50px;
+    width: 289px;
+    height: 18px;
+    /* border: 1px solid red; */
+    text-decoration:underline white;
+}
+
+.sell-center-down h4:hover{
+    text-decoration:underline black;
+}
+
+.sell-center-down h5 {
+    float: left;
+    width: 289px;
+    height: 18px;
+    /* border: 1px solid red; */
+    margin-top: 5px;
+    margin-bottom: 3px;
+    color: #fa6900;
+    text-decoration: underline white;
+}
+
+.sell-center-down h5:hover{
+    text-decoration: underline #fa6900;
 }
 
 .sell-right{
@@ -1478,6 +1674,10 @@
     margin-bottom: 10px;
 }
 
+.after-center a:hover{
+    color: #96ac25;
+}
+
 .after-right li{
     float: left;
     width: 130px;
@@ -1515,9 +1715,46 @@
 }
 
 .foot-left img{
-    float: left;
+
     margin-right: 3px;
+   /* float: left; */
 }
+.foot-left a {
+    float: left;
+    /* position: relative; */
+    width: 94px;
+    height: 33px;
+}
+
+.foot-left a:nth-child(1):hover {
+    width: 128px;
+    height: 46px;
+}
+
+.foot-left a:nth-child(1):hover img{
+    margin-top: -6px;
+    margin-left: -17px;
+    width: 128px;
+    height: 46px;
+}
+
+.foot-left a:nth-child(1):hover+a:nth-child(2) {
+    padding-left: 94px;
+}
+
+.foot-left a:nth-child(1):hover {
+    position: absolute;
+    
+}
+
+/* .foot-left span a img:hover{
+    width: 126px;
+    height: 43px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+} */
 
 .foot-right{
     float: left;
@@ -1532,59 +1769,7 @@
     margin-left: 5px;
 }
 
-/* 练习 */
-.happy{
-    height: 400px;
+.foot-right a:hover{
+    color: #76ac25;
 }
 
-.happy .container{
-    width: 1200px;
-    height: 400px;
-    border: 1px solid black;
-    
-}
-
-.happy-top li{
-    width: 204px;
-    height: 224px;
-    position: relative;
-    overflow: hidden;
-    background-color: yellow;
-    overflow: hidden;
-}
-
-.happy-top div{
-  position: absolute;
-  top: 226px;
-  width: 200px;
-  height: 20px;
-  background-color: green;
-}
-
-.happy-top li:hover .littlecar{
-    top: 200px;
-}
-
-/* .for-center-picture{
-    position: relative;
-    text-align: center;
-    overflow: hidden
-    
-}
-
-.for-center-picture .car{
-    position: absolute;
-    top:212px;
-    width: 100%;
-    height: 30px;
-    border: 1px solid gold;
-   
-    box-sizing: border-box;
-    padding-top: 10px;
-    background-color: #76ac25;
-    transition: all 0.4s;
-}
-
-.for-center-picture:hover .car{
-   top: 182px;
-}  */
