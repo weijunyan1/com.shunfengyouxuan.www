@@ -474,6 +474,10 @@
     color: #fa6400;
 }
 
+.happy{
+    position: absolute;
+}
+
 /* 五广告 */
 .ad1{
     height: 100px;
