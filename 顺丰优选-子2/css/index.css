@@ -6,13 +6,13 @@
     /* z-index: 101; */
     /* padding: 0px; */
     background: #f7f7f7;
-    border: 1px solid #f11919;
+    /* border: 1px solid #f11919; */
 }
 
 .come .container{
     width: 1200px;
     height: 33x;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .come a{
@@ -28,7 +28,7 @@
 
 .customer-service{
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 640px;
 }
 
 
@@ -40,7 +40,7 @@
 .news .container{
     width: 1200px;
     height: 400px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 
@@ -52,7 +52,15 @@
     float: left;
     width: 186px;
     height: 398px;
-    border: 1px solid green;
+    border: 1px solid #e8e8e8;
+}
+
+
+.news-left-up{
+    width: 184px;
+    height: 187px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 11px;
 }
 
 
@@ -60,73 +68,258 @@
     float: left;
     width: 186px;
     height: 30px;
-    border: 1px solid green;
-    margin-top: 0;
-    margin-bottom: 0;
+    border: 1px solid #e8e8e8;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #666666;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    padding-left: 5px;
 }
 
 .news-left-up strong{
     width: 186px;
     height: 22px;
-    border: 1px solid green;
+    /* border: 1px solid #e8e8e8; */
 }
 
 .news-left-up .bigbox{
     width: 186px;
     height: 134px;
-    border: 1px solid green;
+    /* border: 1px solid #e8e8e8; */
 }
 
-.boxleft {
+.news-left-up .boxleft {
     float: left;
     width: 76px;
     height: 134px;
-    border: 1px solid green;
+    /* border: 1px solid #e8e8e8; */
 }
 
-.boxright{
+.news-left-up .boxright{
     float: left;
     width: 105px;
     height: 134px;
-    border: 1px solid green;
+    /* border: 1px solid #e8e8e8; */
   
 }
 
 .news-left-up a{
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 10px;
+    color: #565656;
+    font-size: 14px;
+    margin-left: 8px;
 }
-/* <div class="main">
-                <div class="main-top">
-                    <ul class="main-top-left">
-                        <li><a href="">商品介绍</a></li>
-                        <li><a href="">售后服务</a></li>
-                        <li><a href=""></a>评价<b>(<font class="comment-total-sf">166</font>)</b></li>
-                    </ul>
-                    <div class="main-top-right">
-                        <i></i>
-                        <a href="">加入购物车</a>
-                    </div>
-                </div>
-            </div> */
+
+.news-left-center{
+    border-bottom:1px solid #e8e8e8 ;
+}
+
+
+.news-left-center h2{
+    float: left;
+    width: 187px;
+    height: 30px;
+    border: 1px solid #e8e8e8;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #666666;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+
+.news-center-center .bigbox{
+    width: 186px;
+    height: 83px;
+    /* border: 1px solid #e8e8e8; */
+}
+
+.news-left-center .boxleft {
+    float: left;
+    width: 73px;
+    height: 83px;
+    /* border: 1px solid #e8e8e8; */
+}
+
+.news-left-center .boxright{
+    float: left;
+    width: 105px;
+    height: 83px;
+    /* border: 1px solid #e8e8e8; */
+  
+}
+
+.news-left-center a{
+    display: inline-block;
+    margin-top: 10px;
+    color: #565656;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.news-left-down1{
+    width: 186px;
+    height: 30px;
+    border: 1px solid #e8e8e8;
+    margin-top: 10px;
+    background-color: #f5f5f5;
+}
+
+.news-left-down1 h2{
+    font-size: 14px;
+    color: #565656;
+    line-height: 30px;
+    margin-left: 8px;
+    font-weight: normal;
+}
+
+.news-left-down2{
+    width: 186px;
+    height: 30px;
+    border: 1px solid #e8e8e8;
+    margin-top: 10px;
+    background-color: #f5f5f5;
+}
+
+.news-left-down2 h2{
+    font-size: 14px;
+    color: #565656;
+    line-height: 30px;
+    margin-left: 8px;
+    font-weight: normal;
+}
+
+.news-right{
+    float: left;
+    width: 1010px;
+    height: 400px;
+    /* border: 1px solid #e8e8e8; */
+}
+
+.news-right-up{
+    width: 997px;
+    height: 36px;
+    margin-left: 11px;
+    border: 1px solid #e8e8e8;
+}
+
+.news-right-up li{
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    border-right: 1px solid #e8e8e8;
+    line-height: 36px;
+    text-align: center;
+}
+
+.news-right-up ul{
+    float: left;
+}
+.news-right-up div{
+    float: right;
+    width: 100px;
+    height: 36px;
+    border-left: 1px solid #e8e8e8;
+    line-height: 36px;
+    text-align: center;
+}
 
 
 
-            /* <div class="news-left-center">
-            <h2>相关品牌</h2>
-            <ul>
-                <li>
-                    <a href="">云源</a>
-                    <a href="">西荔王</a>
-                    <a href="">与农说</a>
-                    <a href="">果郡王</a>
-                    <a href="">其他</a>
-                </li>
-            </ul>
-        </div>
-        <div class="news-left-down1">
-            <h2>购买此商品的顾客还买了</h2>
-        </div>
-        <div class="news-left-down2">
-            <h2>浏览此商品的顾客还浏览了</h2>
-        </div> */
+.news-right-up a{
+    color: #565656;
+}
+
+.news-right-down{
+    float: left;
+    width: 980px;
+    height: 500px;
+    /* border: 1px solid red; */
+    margin-left: 29px;
+    margin-top: 20px;
+}
+
+.news-right-down ul{
+    background-color: #f5f5f5;
+}
+
+.news-right-down li{
+    display: inline-block;
+    width: 402px;
+    height: 28px;
+    line-height: 28px;
+    /* border: 1px solid red; */
+}
+
+.news-right-down .word{
+    box-sizing: border-box;
+    padding-top: 20px;
+    background-color: #f5f5f5;
+}
+
+.news-right-down strong{
+    font-weight: normal;
+    width: 100px;
+    text-align: right;
+    display: block;
+    float: left;
+    height: 20px
+}
+
+.news-right-down span:nth-child(1){
+    font-weight: normal;
+    width: 100px;
+    text-align: right;
+    display: block;
+    float: left;
+    height: 20px;
+}
+
+.news-right-down span:nth-child(3){
+    font-weight: normal;
+    width: 100px;
+    text-align: right;
+    display: block;
+    float: left;
+    height: 20px;
+}
+
+.news-right-down span:nth-child(2){
+    display: block;
+    overflow: hidden;
+    width: 878px;
+    height: 40px;
+    /* border: 1px solid red; */
+    margin-top: 0px;
+    font-size: 12;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.news-right-down span:nth-child(4){
+    display: block;
+    overflow: hidden;
+    width: 878px;
+    height: 60px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.news-right-down .please{
+    width: 856px;
+    height: 28px;
+    background-color: #fff;
+    padding: 4px 20px 4px 0px;
+    line-height: 20px;
+}
+
+.news-right-down .please a{
+    color: #69ac25;
+}

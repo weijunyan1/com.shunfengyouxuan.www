@@ -336,6 +336,11 @@
     /* border: 1px solid red; */
 }
 
+.buy .container{
+    width: 1186px;
+    height: 545px;
+}
+
 .buy-top{
     float: left;
     width: 1200px;
