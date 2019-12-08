@@ -197,8 +197,8 @@
 .news-right{
     float: left;
     width: 1010px;
-    height: 400px;
-    /* border: 1px solid #e8e8e8; */
+    height: 10413px;
+    border: 1px solid red;
 }
 
 .news-right-up{
@@ -322,4 +322,272 @@
 
 .news-right-down .please a{
     color: #69ac25;
+}
+
+/* 售后用户回馈 */
+.user{
+    height: 134px;
+}
+
+.user .container{
+    width: 1200px;
+    height: 134px;
+    /* border: 1px solid red; */
+}
+
+.user-box{
+    float: left;
+    width: 1010px;
+    height: 134px;
+    /* border: 1px solid red; */
+    margin-left: 188px;
+}
+
+.user-box .one{
+float: left;
+}
+
+.user-box h3{
+    width: 1010px;
+    height: 30px;
+    background-color: #e8e8e8;
+    line-height: 30px;
+    font-family: 宋体;
+    font-weight: bold;
+    font-size: 14px;
+    text-indent: 10px;
+}
+
+.user-box .s01{
+    font-size: 48px;
+    font-family: 微软雅黑;
+    color: rgb(214, 43, 43);
+    width: 280px;
+    height: 68px;
+    /* border: 1px solid gold; */
+    display: inline-block;
+    text-align: center;
+    margin-right: 26px;
+    line-height: 68px;
+}
+
+.user-box .s02{
+    font-size: 14px;
+    color: #72797e;
+    display: inline-block;
+    margin-left: 121px;
+}
+
+
+
+.user-box .two{
+    float: left;
+    width: 315px;
+    height: 92px;
+    border-right: 1px  dashed #dfdfdf;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-left: 1px  dashed #dfdfdf;
+    box-sizing: border-box;
+    padding-top: 42px;
+    padding-left: 82px;
+}
+
+.user-box .three{
+    float: left;
+    width: 331px;
+    height: 102px;
+    /* border: 1px solid red; */
+    margin-left: 31px;
+}
+
+.user-box .three div:nth-child(1){
+    width: 100px;
+    height: 30px;
+    border: 1px solid #8ec319;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 12px;
+    color: #8ec319;
+    line-height: 30px;
+    margin-top: 15px;
+    background-color: #8ec319;
+    margin-left: 82px;
+}
+
+.user-box .three div:nth-child(1) a{
+    color: #fff;
+}
+
+.user-box .three div:nth-child(2){
+    display: block;
+    width: 183px;
+    height: 12px;
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    margin-left: 81px;
+}
+
+.user-box .three div:nth-child(2) a{
+    display: inline-block;
+    margin-top: 13px;
+}
+
+/* 晒单列表 */
+.list{
+    height: 53px;
+}
+
+.list .container{
+   
+    width: 1200px;
+    height: 53px;
+    
+}
+
+.list-box{
+    float: left;
+    width: 1021px;
+    height: 53px;
+    border-bottom: 1px solid #666666;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 1px;
+    margin-left: 185px;
+}
+
+.list-box h3{
+    width: 115px;
+    height: 16px;
+    /* border: 1px solid #666666; */
+    display: inline-block;
+    font-size: 16px;
+   
+}
+
+.list-box a{
+    font-size: 16px;
+    color: #666;
+    font-weight: 100;
+}
+
+/* 晒单 */
+.sun{
+    height: 106px;
+}
+
+.sun .container{
+    height: 106px;
+    width: 1200px;
+}
+
+.sun-box{
+    float: left;
+    height: 106px;
+    width: 1018px;
+    border: 1px solid green;
+    margin-left: 186px;
+}
+
+.sun-box .sun-left{
+    float: left;
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid green; */
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+
+.sun-box .sun-left img{
+    width: 25px;
+    height: 25px;
+    border: none;
+    float: left;
+}
+
+.sun-box .sun-left span{
+    display: inline-block;
+    width: 58px;
+    height: 25px;
+    /* border: 1px solid green; */
+    padding-top: 7px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+.sun-box .sun-left div{
+    margin-top: 5px;
+    margin-left: 1px;
+}
+
+.sun-box .sun-right{
+    float: left;
+    width: 916px;
+    height: 100px;
+    /* border: 1px solid green; */
+}
+
+.sun-box .sun-right .sun-right-up{
+    width: 914px;
+    height: 30px;
+    /* border: 1px solid goldenrod; */
+}
+
+.sun-box .sun-right .sun-right-up img{
+    margin-top: 10px;
+    margin-left: 24px;
+}
+
+
+
+.sun-box .sun-right .sun-right-up a{
+    margin-left: 555px;
+    /* margin-top: -47px; */
+    position: relative;
+    top: -4px;
+}
+.sun-box .sun-right .sun-right-up div{
+    float: right;
+    margin-top: 15px;
+}
+
+.sun-box .sun-right .sun-right-up span{
+    position: relative;
+    top: -4px;
+}
+
+.sun-right .sun-right-center{
+    width: 916px;
+    height: 14px;
+    /* border: 1px solid green; */
+    box-sizing: border-box;
+    padding-left: 24px;
+}
+
+.sun-right .sun-right-down{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.sun-right .and{
+    margin-left: 5px;
+}
+
+/* 晒单二 */
+.sun{
+    height: 106px;
+}
+
+.sun .container{
+    height: 106px;
+    width: 1200px;
+}
+
+.sun-box{
+    float: left;
+    height: 106px;
+    width: 1018px;
+    border: 1px solid green;
+    margin-left: 186px;
 }
